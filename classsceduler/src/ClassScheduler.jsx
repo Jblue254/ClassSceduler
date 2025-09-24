@@ -193,7 +193,7 @@ function StudentDashboard({ classes, onEnroll, onAddFeedback }) {
               </button>
             </form>
 
-            {/* Feedback form (only after enrolled) */}
+            
             {selectedClass === cls.id && (
               <form
                 className="mt-3 space-y-2"
